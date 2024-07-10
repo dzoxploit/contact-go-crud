@@ -11,7 +11,7 @@ var (
 
 func Connect() {
 	// Please define your user name and password for my sql.
-	d, err := gorm.Open("mysql", "root:@tcp(localhost:3306)/zahir")
+	d, err := gorm.Open("mysql", "root:@tcp(localhost:3306)/contact-go-crud")
 	if err != nil{
 		panic(err)
 	}

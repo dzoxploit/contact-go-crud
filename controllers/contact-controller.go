@@ -77,6 +77,9 @@ func UpdateContact(w http.ResponseWriter, r *http.Request) {
 	if updateContact.Name != "" {
 		contactDetails.Name = updateContact.Name
 	}
+	if updateContact.Age != "" {
+		contactDetails.Age = updateContact.Age
+	}
 	if updateContact.Email != "" {
 		contactDetails.Email = updateContact.Email
 	}

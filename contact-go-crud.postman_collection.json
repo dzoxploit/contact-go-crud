@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "09921b88-de34-4a8b-914d-9e10a71995c4",
-		"name": "zahir_test",
+		"name": "contact-go-crud",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
